@@ -31,6 +31,12 @@ public class Menu {
         }
     }
 
+    public void printItem(String menu, String name) {
+        if (menu.contains(name)) {
+
+        }
+    }
+
     public void printMenu() {
         System.out.println();
         System.out.println(lastUpdated);
@@ -48,13 +54,6 @@ public class Menu {
             System.out.println(eachItem.getPrice());
             System.out.println();
         }
-
-        public void printItem(String itemName){
-            if (menu.contains(itemName)) {
-
-            }
-
-        }
-   }
+    }
 
 }
